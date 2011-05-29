@@ -1,0 +1,26 @@
+# Jquery Mobile site for UNC Cause 2011
+
+## Requirements
+
+ - Rubygems version > 1.7.7
+ - Install the [jekyll](https://github.com/mojombo/jekyll) gem
+ - npm
+ - [Coffee Script](http://jashkenas.github.com/coffee-script/)
+ 
+## Building an instance
+
+   $ cd ~/projects/dev/cause-mobile
+   $ jekyll
+   $ coffee --compile js/app.coffee
+
+This should build an instance of the site in the `_site` folder. 
+
+## Running the development server
+
+   $ cd ~/projects/dev/cause-mobile
+   $ jekyll --serve --auto
+   $ coffee --watch --compile js/app.coffee
+
+Now if you point your browser to [http://localhost:4000](http://localhost:4000)
+you should get an instance of the site in your browser.
+

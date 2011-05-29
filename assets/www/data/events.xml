@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<days>
+  <day>
+    <name>Tuesday Nov 1, 2011</name>
+    <events>
+      <event>
+        <name>Test Event 1</name>
+        <id>test-event-1</id>
+        <desc>Description of the event</desc>
+        <time>9:00 am to 10:00 am</time>
+        <location>Some Room 1</location>
+        <track>1</track>
+      </event>
+      <event>
+        <name>Test Event 2</name>
+        <id>test-event-2</id>
+        <desc>Description of the event</desc>
+        <time>10:00 am to 11:00 am</time>
+        <location>Some Room 2</location>
+        <track>1</track>
+      </event>
+    </events>
+  </day>
+  <day>
+    <name>Wednesday Nov 2, 2011</name>
+    <events>
+      <event>
+        <name>Test Event 3</name>
+        <id>test-event-3</id>
+        <desc>Description of the event</desc>
+        <time>9:00 am to 10:00 am</time>
+        <location>Some Room 1</location>
+        <track>2</track>
+      </event>
+      <event>
+        <name>Test Event 4</name>
+        <id>test-event-4</id>
+        <desc>Description of the event</desc>
+        <time>9:00 am to 10:00 am</time>
+        <location>Some Room 5</location>
+        <track>2</track>
+      </event>
+      <event>
+        <name>Test Event 9</name>
+        <id>test-event-9</id>
+        <desc>Description of the event</desc>
+        <time>9:00 am to 10:00 am</time>
+        <location>Some Room 5</location>
+        <track>2</track>
+      </event>
+    </events>
+  </day>
+  <day>
+    <name>Thursday Nov 3, 2011</name>
+    <events>
+      <event>
+        <name>Test Event 5</name>
+        <id>test-event-5</id>
+        <desc>Description of the event</desc>
+        <time>9:00 am to 10:00 am</time>
+        <location>Some Room 1</location>
+        <track>2</track>
+      </event>
+      <event>
+        <name>Test Event 6</name>
+        <id>test-event-6</id>
+        <desc>Description of the event</desc>
+        <time>9:00 am to 10:00 am</time>
+        <location>Some Room 5</location>
+        <track>4</track>
+      </event>
+    </events>
+  </day>
+</days>
+

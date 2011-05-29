@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<speakers>
+  <speaker id="zachseifts">
+    <name>Zach Seifts</name>
+    <bio>An awesome guy with a beard</bio>
+    <thumb>/images/default-profile.png</thumb>
+  </speaker>
+  <speaker id="speaker1">
+    <name>Speaker 1</name>
+    <bio>A generated speaker</bio>
+    <thumb>/images/default-profile.png</thumb>
+  </speaker>
+</speakers>
+

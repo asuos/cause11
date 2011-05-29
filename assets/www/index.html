@@ -1,0 +1,163 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <title>UNC Cause 2011 {{ page.title }}</title> 
+    <link rel="stylesheet" href="css/jquery.mobile-1.0a4.1.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head> 
+  <body> 
+
+    <section data-role="page" id="index">
+      <header data-role="header">
+        <h1>UNC Cause 2011</h1>
+      </header>
+      <section data-role="content">
+        <section id="index-menu">
+         <div class="ui-grid-a center-content">
+           <div class="ui-block-a">
+             <a href="#speakers">
+               <img src="images/default_index.png" /><br />
+               Speakers</a>
+           </div>
+           <div class="ui-block-b">
+             <a href="#schedule">
+               <img src="images/default_index.png" /><br />
+               Schedule</a>
+           </div>
+         </div>
+       
+         <div class="ui-grid-a center-content">
+           <div class="ui-block-a">
+             <a href="#about">
+               <img src="images/default_index.png" /><br />
+               About</a>
+           </div>
+           <div class="ui-block-b">
+             <a href="#news">
+               <img src="images/default_index.png" /><br />
+               News</a>
+           </div>
+         </div>
+       </section>
+      </section>
+      <footer data-role="footer">
+        <h4> Footer Text</h4>
+      </footer>
+   </section>
+
+   <section data-role="page" id="speakers">
+     <header data-role="header">
+       <h1>UNC Cause 2011 | Speakers</h1>
+     </header>
+     <section data-role="content">
+       <ul data-role="listview" data-filter="true">
+         <li data-role=list-divider">A</li>
+         <li><a href="#">Adam Kinkaid</a></li>
+         <li><a href="#">Alex Wickerham</a></li>
+         <li><a href="#">Avery Johnson</a></li>
+         <li data-role="list-divider">B</li>
+         <li><a href="#">Bob Cabot</a></li>
+         <li data-role="list-divider">C</li>
+         <li><a href="#">Caleb Booth</a></li>
+         <li><a href="#">Christopher Adams</a></li>
+         <li><a href="#">Culver James</a></li>
+         <li data-role="list-divider">D</li>
+         <li><a href="#">David Walsh</a></li>
+         <li><a href="#">Drake Alfred</a></li>
+         <li data-role="list-divider">E</li>
+         <li><a href="#">Elizabeth Bacon</a></li>
+         <li><a href="#">Emery Parker</a></li>
+         <li><a href="#">Enid Voldon</a></li>
+         <li data-role="list-divider">F</li>
+         <li><a href="#">Francis Wall</a></li>
+         <li data-role="list-divider">G</li>
+         <li><a href="#">Graham Smith</a></li>
+         <li><a href="#">Greta Peete</a></li>
+         <li data-role="list-divider">H</li>
+         <li><a href="#">Harvey Walls</a></li>
+         <li data-role="list-divider">M</li>
+         <li><a href="#">Mike Farnsworth</a></li>
+         <li><a href="#">Murray Vanderbuilt</a></li>
+         <li data-role="list-divider">N</li>
+         <li><a href="#">Nathan Williams</a></li>
+         <li data-role="list-divider">P</li>
+         <li><a href="#">Paul Baker</a></li>
+         <li><a href="#">Pete Mason</a></li>
+         <li data-role="list-divider">R</li>
+         <li><a href="#">Rod Tarker</a></li>
+         <li data-role="list-divider">S</li>
+         <li><a href="#">Sawyer Wakefield</a></li>
+       </ul>
+     </section>
+     <footer data-role="footer">
+       <h4> Footer Text</h4>
+     </footer>
+    </section>
+
+    <section data-role="page" id="schedule">
+       <header data-role="header">
+        <h1>UNC Cause 2011 | Schedule</h1>
+      </header>
+      <section data-role="content">
+        <ul data-role="listview" data-filter="true" data-split-theme="d">
+        </ul>
+      </section>
+      <footer data-role="footer">
+        <h4> Footer Text</h4>
+      </footer>
+    </section>
+
+    <section data-role="page" id="event">
+      <header data-role="header">
+        <h1>UNC Cause 2011 | Event</h1>
+      </header>
+      <section data-role="content">
+        <h2>We're Sorry!</h2>
+        <p>No event can be found by this name!</p>
+      </section>
+      <footer data-role="footer">
+        <h4> Footer Text</h4>
+      </footer>
+    </section>
+
+
+    <script type="text/javascript" src="js/libs/phonegap.0.9.5.1.js"></script>
+    <script type="text/javascript" src="js/libs/jquery-1.5.2.min.js"></script>
+    <script type="text/javascript" src="js/libs/jquery.mobile-1.0a4.1.min.js"></script>
+    <script type="text/javascript" src="js/libs/ICanHaz.min.js"></script>
+
+    <script type="text/javascript" src="js/pages/home.js"></script>
+    <script type="text/javascript" src="js/pages/speakers.js"></script>
+
+    <script type="text/javascript" src="js/app.js"></script>
+
+
+    <script id="list_divider_tmp" type="text/html">
+      <li data-role="list-divider">{{title}}</li>
+    </script>
+
+    <script id="event_tmp" type="text/html">
+      <li>
+        <a href="#event" id="{{id}}" class="loadEvent">
+          <h3>{{name}}</h3>
+          <p>{{time}}</p>
+        </a>
+      </li>
+    </script>
+
+    <!-- Partials -->
+    <script id="header" class="partial" type="text/html">
+     <header data-role="header">
+       <h1>UNC Cause 2011 {{ page_title }}</h1>
+     </header>
+    </script>
+    
+   <script id="footer" class="partial" type="text/html">
+     <footer data-role="footer">
+       <h4> Footer Text</h4>
+     </footer>
+    </script>
+    
+  </body>
+</html>
+
